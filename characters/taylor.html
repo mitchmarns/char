@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Character profile for Taylor Abbott" />
+    <title>TAYLOR ABBOTT</title>
 
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1" defer></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/eat5uwv.css" />
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navigation -->
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li>
+            <a href="../home.html"
+              ><i class="ph-duotone ph-house-line"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="../character_list.html"
+              ><i class="ph-duotone ph-list-heart"></i>Characters</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <div class="name-banner">
+        <div class="background">
+          <img src="../images/taylorbanner.png" alt="Taylor Abbot" />
+        </div>
+        <div class="name">taylor abbott</div>
+        <div class="jersey-number">11</div>
+      </div>
+
+      <!-- tabs -->
+      <section id="tab-container">
+        <div class="tabs">
+          <button class="tab active" data-tab="stats">stats</button>
+          <button class="tab" data-tab="bio">bio</button>
+          <button class="tab" data-tab="connections">connections</button>
+          <button class="tab" data-tab="gallery">gallery</button>
+          <button class="tab" data-tab="moodboard">moodboard</button>
+          <button class="tab" data-tab="playlist">playlist</button>
+        </div>
+      </section>
+
+      <!-- sidebar -->
+      <div class="content-wrapper">
+        <div class="sidebar-wrap">
+        <div class="sidebarborder">
+          <div class="sidebar">
+            <img src="../images/taylorsidebar.png" alt="Taylor Abbott" />
+            <div class="text-overlay">
+              <p>
+                I like day-drinkin' and day parties and Hollywood. I like doin'
+                Hollywood shit, snort it, probably would. What can I say? The
+                shit works, it feels good, and my self-worth's at an all-time
+                low.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="icon-container">
+          <!-- icons load here-->
+        </div>
+        </div>
+
+        <!-- tab content -->
+        <div class="tab-content active" id="stats">
+          <div class="character-info">
+            <div id="info-container"></div>
+          </div>
+        </div>
+        <div class="tab-content" id="bio">
+          <div class="biocon">
+            <h1>they say "you're a little much for me..."</h1>
+            <p>
+              one of the perks of being an only child is having all of the
+              attention on you all the time. picture-perfect weekends spent
+              fishing on the lake or at the rink practicing, learning to love
+              the same game that his father had. one of the drawbacks of being
+              an only child was… well, all the attention was on you. from an
+              early age, taylor idolized his father, doing anything he could to
+              impress him, even if it meant pushing his relationship with his
+              mother to the side. to him, his father was his best friend, his
+              idol – his everything.
+            </p>
+            <p>
+              But that bond was more fragile than taylor could have imagined.
+              His father didn’t look at him like a son, but a project – someone
+              to mold and push, to carry on the legacy of excellence that his
+              father had started. Taylor had always been intelligent, but he
+              lacked confidence in his academic abilities. No matter how hard he
+              tried, he could never meet the high expectations that his father
+              had set. Hockey was the only thing that connected them when
+              everything else was stripped away, but even that came with
+              conditions.
+            </p>
+            <p>
+              When taylor was nine, he had the chance to play on a team far
+              better than the one where he lived in Cambridge. The only problem
+              was that the team was in Michigan; easily solved when a friend
+              from tournaments offered him a place to stay. Their parents all
+              agreed with each other that the arrangement would work fine as a
+              temporary solution. However, this situation became permanent when
+              his parents simply decided they didn’t want to take him back. His
+              father, tired of Taylor’s rebellious streak, his impulsive
+              decisions, his emotional outbursts, his struggles with self-harm
+              that had presented at a young age, pushed for it and his mother
+              went along with it. Just like that… he was no longer their
+              responsibility.
+            </p>
+            <p>
+              Living with chase was the first time that he was really exposed to
+              what family really felt like, but still, even though their home
+              was always filled with warmth, he always felt just a little bit
+              alone. Chase’s mother, a single mother who worked long hours as a
+              nurse to provide everything for her two sons and the young boy she
+              had been stuck with. No one – not chase, his mother, or his
+              brother – ever made taylor feel that he was an outsider though.
+              Chase, most of all, was always by his side – through every bad
+              decision, reckless night, and downward spiral. Their friendship
+              wasn’t just important to taylor – it was the foundation of his
+              life.
+            </p>
+            <p>
+              Taylor made a lot of questionable choices over the years –
+              partying too hard, falling into toxic relationships, struggling
+              with substance abuse – but he sees it all as part of his journey.
+              If nothing else, its proved to himself that he’s become his own
+              person. Not the one that his father shaped him into – and maybe
+              that was always the point.
+            </p>
+          </div>
+        </div>
+        <div class="tab-content" id="connections">
+          <div class="connections-list">
+            <!--dynamically loading relationships-->
+          </div>
+        </div>
+        <div class="tab-content" id="gallery">
+          <!--dynamically loading relationships-->
+        </div>
+        <div class="tab-content" id="moodboard">
+            <div class="moodboard">
+                <div id="columness"></div>
+            </div>       
+        </div>
+        <div class="tab-content" id="playlist">
+          <div id="playlist-container">
+            <!--playlist-->
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="taylor.js"></script>
+  </body>
+</html>
